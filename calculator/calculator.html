@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript" src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="popup">
+<form name=calculator>
+  <div class="setup">
+  <input id="myInput"type="text" name="text1" style="text-align:right"><br>
+    <input type="button" name="ac" value=AC onclick="all_clear()">
+    <input type="button" name="bs" value=⌫ onclick="back()" >
+    <input type="button" name="mod" value=% onclick="displaynum(mod.value)">
+  </div>
+  <input type="button" name="btn9" value=9 onclick="displaynum(btn9.value)">
+  <input type="button" name="btn8" value=8 onclick="displaynum(btn8.value)">
+  <input type="button" name="btn7" value=7 onclick="displaynum(btn7.value)">
+      <input type="button" name="mult" value=* onclick="displaynum(mult.value)"><br>
+  <input type="button" name="btn6" value=6 onclick="displaynum(btn6.value)">
+  <input type="button" name="btn5" value=5 onclick="displaynum(btn5.value)">
+  <input type="button" name="btn4" value=4 onclick="displaynum(btn4.value)">
+    <input type="button" name="div" value=/ onclick="displaynum(div.value)"><br>
+  <input type="button" name="btn3" value=3 onclick="displaynum(btn3.value)">
+  <input type="button" name="btn2" value=2 onclick="displaynum(btn2.value)">
+  <input type="button" name="btn1" value=1 onclick="displaynum(btn1.value)">
+  <input type="button" name="minus" value=- onclick="displaynum(minus.value)"><br>
+    <input type="button" name="btndot" value=. onclick="displaynum(btndot.value)">
+    <input type="button" name="btn0" value=0  onclick="displaynum(btn0.value)">
+    <input type="button" name="btneql" value== onclick="text1.value=eval(text1.value)">
+    <input type="button" name="plus" value=+ onclick="displaynum(plus.value)">
+
+</form>
+  </div>
+
+</body>
+</html>
